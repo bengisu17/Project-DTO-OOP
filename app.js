@@ -175,7 +175,7 @@ console.log(offerManagement.calculateTotalPrice());
 // kabul edilen tekliflerin toplam fiyatını yazdır
 console.log(acceptanceManagement.calculateTotalPrice());
 
-// kabul edilme oranının ortalamasını yazdır. Math.ceil metodu ile sonucu bir üst tam sayıya yuvarla
+// kabul edilme oranının ortalamasını yazdır. //! Math.ceil metodu ile sonucu bir üst tam sayıya yuvarla
 console.log(Math.ceil(acceptanceManagement.calculateAverageAcceptanceRatio()));
 
 // console.log(acceptanceManagement.calculateAverageAcceptanceRatio());         
@@ -187,7 +187,6 @@ console.log(acceptance1);
 
 console.log(new OfferDTO("period1", [offer1, offer2, offer3])); 
 console.log(new AcceptanceDTO("period1", [acceptance1, acceptance2, acceptance3])); 
-
 
 
 
