@@ -196,6 +196,4 @@ console.log(new AcceptanceDTO("period1", [acceptance1, acceptance2, acceptance3]
 
 
 
-// Tekliflerin toplam fiyatını yazdır
-// Kabul edilen tekliflerin toplam fiyatını yazdır
-// Kabul edilme oranının ortalamasını yazdır
+
